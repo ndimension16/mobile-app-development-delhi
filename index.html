@@ -1,0 +1,1709 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+```
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Mobile App Development Company in Delhi NCR | Ndimension Labs</title>
+
+<meta name="description" content="Ndimension Labs provides custom mobile app development in Delhi NCR including Android, iOS, Flutter, React Native and AI-powered mobile applications for startups, SMEs and enterprises.">
+
+<meta name="keywords" content="mobile app development Delhi, mobile app development company Delhi NCR, Android app development Delhi, iOS app development Delhi, Flutter app development Delhi, React Native development Delhi, AI mobile app development Delhi">
+
+<meta name="author" content="Ndimension Labs">
+
+<meta name="robots" content="index, follow">
+
+<link rel="canonical" href="https://ndimension16.github.io/mobile-app-development-delhi/">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Mobile App Development Company in Delhi NCR | Ndimension Labs">
+<meta property="og:description" content="Custom Android, iOS, Flutter, React Native and AI-powered mobile application development for businesses across Delhi NCR.">
+<meta property="og:url" content="https://ndimension16.github.io/mobile-app-development-delhi/">
+<meta property="og:site_name" content="Ndimension Labs">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Mobile App Development Company in Delhi NCR | Ndimension Labs">
+<meta name="twitter:description" content="Custom mobile app development for startups, SMEs and enterprises across Delhi NCR.">
+
+<!-- Favicon -->
+<meta name="theme-color" content="#07111f">
+
+<!-- Google Font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+
+<style>
+    :root {
+        --bg: #07111f;
+        --bg-soft: #0b1728;
+        --card: #0e1d31;
+        --card-light: #12243b;
+        --text: #f7fbff;
+        --muted: #9db0c6;
+        --blue: #3b82f6;
+        --blue-light: #60a5fa;
+        --cyan: #22d3ee;
+        --orange: #ff751a;
+        --border: rgba(255,255,255,0.09);
+        --shadow: 0 24px 70px rgba(0,0,0,0.28);
+        --radius: 20px;
+        --max: 1180px;
+    }
+
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+    body {
+        font-family: "Inter", sans-serif;
+        background:
+            radial-gradient(circle at 10% 5%, rgba(59,130,246,0.13), transparent 30%),
+            radial-gradient(circle at 90% 10%, rgba(34,211,238,0.08), transparent 25%),
+            var(--bg);
+        color: var(--text);
+        line-height: 1.7;
+    }
+
+    a {
+        color: inherit;
+        text-decoration: none;
+    }
+
+    img {
+        max-width: 100%;
+        display: block;
+    }
+
+    .container {
+        width: min(92%, var(--max));
+        margin: auto;
+    }
+
+    .section {
+        padding: 100px 0;
+    }
+
+    .eyebrow {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        color: var(--cyan);
+        font-size: 13px;
+        font-weight: 800;
+        letter-spacing: 1.5px;
+        text-transform: uppercase;
+        margin-bottom: 18px;
+    }
+
+    .eyebrow::before {
+        content: "";
+        width: 28px;
+        height: 2px;
+        background: var(--cyan);
+    }
+
+    h1,
+    h2,
+    h3 {
+        font-family: "Space Grotesk", sans-serif;
+        line-height: 1.15;
+    }
+
+    h2 {
+        font-size: clamp(32px, 4vw, 48px);
+        margin-bottom: 20px;
+    }
+
+    .section-intro {
+        max-width: 760px;
+        color: var(--muted);
+        font-size: 17px;
+    }
+
+    /* Navigation */
+
+    .navbar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: rgba(7,17,31,0.88);
+        backdrop-filter: blur(18px);
+        border-bottom: 1px solid var(--border);
+    }
+
+    .nav-inner {
+        min-height: 76px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 30px;
+    }
+
+    .logo {
+        font-family: "Space Grotesk", sans-serif;
+        font-size: 22px;
+        font-weight: 800;
+        letter-spacing: -0.5px;
+    }
+
+    .logo span {
+        color: var(--orange);
+    }
+
+    .nav-links {
+        display: flex;
+        align-items: center;
+        gap: 26px;
+        list-style: none;
+    }
+
+    .nav-links a {
+        color: #c7d4e3;
+        font-size: 14px;
+        font-weight: 600;
+        transition: 0.25s ease;
+    }
+
+    .nav-links a:hover {
+        color: #fff;
+    }
+
+    .nav-cta {
+        padding: 11px 18px;
+        border-radius: 10px;
+        background: var(--blue);
+        color: #fff !important;
+    }
+
+    /* Hero */
+
+    .hero {
+        min-height: 760px;
+        display: flex;
+        align-items: center;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .hero-grid {
+        position: absolute;
+        inset: 0;
+        opacity: 0.08;
+        background-image:
+            linear-gradient(rgba(255,255,255,0.3) 1px, transparent 1px),
+            linear-gradient(90deg, rgba(255,255,255,0.3) 1px, transparent 1px);
+        background-size: 60px 60px;
+        mask-image: linear-gradient(to bottom, black, transparent);
+    }
+
+    .hero-content {
+        position: relative;
+        z-index: 2;
+        max-width: 900px;
+        padding: 90px 0;
+    }
+
+    .hero h1 {
+        font-size: clamp(46px, 7vw, 82px);
+        letter-spacing: -3px;
+        max-width: 950px;
+    }
+
+    .hero h1 span {
+        background: linear-gradient(90deg, #fff, var(--blue-light), var(--cyan));
+        -webkit-background-clip: text;
+        color: transparent;
+    }
+
+    .hero-text {
+        max-width: 760px;
+        color: #b4c3d5;
+        font-size: 19px;
+        margin: 28px 0 34px;
+    }
+
+    .hero-buttons {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 14px;
+    }
+
+    .btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        padding: 14px 22px;
+        border-radius: 12px;
+        font-weight: 700;
+        font-size: 14px;
+        transition: transform 0.2s ease, background 0.2s ease;
+    }
+
+    .btn:hover {
+        transform: translateY(-2px);
+    }
+
+    .btn-primary {
+        background: var(--blue);
+    }
+
+    .btn-secondary {
+        background: rgba(255,255,255,0.06);
+        border: 1px solid var(--border);
+    }
+
+    .hero-note {
+        margin-top: 25px;
+        color: #7f94aa;
+        font-size: 13px;
+    }
+
+    /* Trust strip */
+
+    .trust-strip {
+        border-top: 1px solid var(--border);
+        border-bottom: 1px solid var(--border);
+        background: rgba(255,255,255,0.025);
+    }
+
+    .trust-grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 1px;
+    }
+
+    .trust-item {
+        padding: 28px 20px;
+        text-align: center;
+        border-right: 1px solid var(--border);
+    }
+
+    .trust-item:last-child {
+        border-right: 0;
+    }
+
+    .trust-number {
+        font-family: "Space Grotesk", sans-serif;
+        font-size: 28px;
+        font-weight: 800;
+    }
+
+    .trust-label {
+        color: var(--muted);
+        font-size: 13px;
+        margin-top: 5px;
+    }
+
+    /* Cards */
+
+    .cards {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        margin-top: 45px;
+    }
+
+    .card {
+        background: linear-gradient(145deg, rgba(255,255,255,0.055), rgba(255,255,255,0.018));
+        border: 1px solid var(--border);
+        border-radius: var(--radius);
+        padding: 30px;
+        box-shadow: var(--shadow);
+    }
+
+    .card-icon {
+        width: 48px;
+        height: 48px;
+        display: grid;
+        place-items: center;
+        border-radius: 14px;
+        background: rgba(59,130,246,0.12);
+        color: var(--blue-light);
+        font-weight: 800;
+        margin-bottom: 22px;
+    }
+
+    .card h3 {
+        font-size: 22px;
+        margin-bottom: 12px;
+    }
+
+    .card p {
+        color: var(--muted);
+        font-size: 14px;
+    }
+
+    .card ul {
+        list-style: none;
+        margin-top: 18px;
+    }
+
+    .card li {
+        color: #b9c8d9;
+        font-size: 14px;
+        padding: 6px 0;
+    }
+
+    .card li::before {
+        content: "✓";
+        color: var(--cyan);
+        margin-right: 9px;
+    }
+
+    /* Split */
+
+    .split {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 70px;
+        align-items: center;
+    }
+
+    .feature-list {
+        margin-top: 30px;
+        display: grid;
+        gap: 16px;
+    }
+
+    .feature {
+        display: flex;
+        gap: 16px;
+        padding: 18px;
+        background: rgba(255,255,255,0.035);
+        border: 1px solid var(--border);
+        border-radius: 14px;
+    }
+
+    .feature-number {
+        min-width: 36px;
+        height: 36px;
+        display: grid;
+        place-items: center;
+        border-radius: 10px;
+        background: rgba(34,211,238,0.1);
+        color: var(--cyan);
+        font-weight: 800;
+    }
+
+    .feature strong {
+        display: block;
+        margin-bottom: 4px;
+    }
+
+    .feature span {
+        color: var(--muted);
+        font-size: 13px;
+    }
+
+    .visual-card {
+        min-height: 470px;
+        border-radius: 28px;
+        border: 1px solid var(--border);
+        background:
+            radial-gradient(circle at 50% 20%, rgba(59,130,246,0.24), transparent 40%),
+            linear-gradient(145deg, #10243e, #081423);
+        position: relative;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .phone {
+        width: 230px;
+        height: 430px;
+        border: 7px solid #172c46;
+        border-radius: 35px;
+        background: linear-gradient(180deg, #0b1728, #0d2038);
+        box-shadow: 0 30px 70px rgba(0,0,0,0.5);
+        padding: 30px 18px;
+        position: relative;
+    }
+
+    .phone::before {
+        content: "";
+        position: absolute;
+        top: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 70px;
+        height: 6px;
+        border-radius: 10px;
+        background: #243c57;
+    }
+
+    .phone-logo {
+        margin-top: 22px;
+        font-family: "Space Grotesk", sans-serif;
+        font-weight: 800;
+        font-size: 18px;
+    }
+
+    .phone-screen {
+        margin-top: 30px;
+        display: grid;
+        gap: 12px;
+    }
+
+    .phone-block {
+        height: 58px;
+        border-radius: 12px;
+        background: rgba(255,255,255,0.06);
+        border: 1px solid rgba(255,255,255,0.07);
+    }
+
+    .phone-block.large {
+        height: 105px;
+        background: linear-gradient(135deg, rgba(59,130,246,0.28), rgba(34,211,238,0.08));
+    }
+
+    /* Technologies */
+
+    .tech-grid {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        margin-top: 35px;
+    }
+
+    .tech {
+        padding: 12px 17px;
+        border-radius: 10px;
+        background: rgba(255,255,255,0.04);
+        border: 1px solid var(--border);
+        color: #c8d6e5;
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    /* Industries */
+
+    .industry-grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 14px;
+        margin-top: 40px;
+    }
+
+    .industry {
+        padding: 22px;
+        border-radius: 16px;
+        border: 1px solid var(--border);
+        background: rgba(255,255,255,0.025);
+    }
+
+    .industry strong {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    .industry span {
+        color: var(--muted);
+        font-size: 13px;
+    }
+
+    /* Process */
+
+    .process {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 16px;
+        margin-top: 45px;
+    }
+
+    .process-item {
+        padding: 25px;
+        border: 1px solid var(--border);
+        border-radius: 16px;
+        background: rgba(255,255,255,0.025);
+    }
+
+    .process-item span {
+        color: var(--cyan);
+        font-size: 12px;
+        font-weight: 800;
+    }
+
+    .process-item h3 {
+        font-size: 19px;
+        margin: 10px 0;
+    }
+
+    .process-item p {
+        color: var(--muted);
+        font-size: 13px;
+    }
+
+    /* Location */
+
+    .location-box {
+        margin-top: 45px;
+        padding: 42px;
+        border: 1px solid var(--border);
+        border-radius: 24px;
+        background:
+            linear-gradient(120deg, rgba(59,130,246,0.12), rgba(34,211,238,0.04));
+    }
+
+    .location-tags {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-top: 25px;
+    }
+
+    .location-tag {
+        padding: 10px 14px;
+        border-radius: 999px;
+        border: 1px solid rgba(255,255,255,0.1);
+        background: rgba(255,255,255,0.04);
+        font-size: 13px;
+        color: #c6d4e4;
+    }
+
+    /* FAQ */
+
+    .faq {
+        max-width: 900px;
+        margin-top: 40px;
+    }
+
+    details {
+        border-bottom: 1px solid var(--border);
+        padding: 22px 0;
+    }
+
+    summary {
+        cursor: pointer;
+        font-weight: 700;
+        font-size: 16px;
+    }
+
+    details p {
+        color: var(--muted);
+        margin-top: 13px;
+        font-size: 14px;
+        max-width: 800px;
+    }
+
+    /* CTA */
+
+    .cta {
+        padding: 70px;
+        border-radius: 28px;
+        border: 1px solid var(--border);
+        background:
+            radial-gradient(circle at 80% 20%, rgba(34,211,238,0.15), transparent 30%),
+            radial-gradient(circle at 20% 80%, rgba(59,130,246,0.18), transparent 35%),
+            #0d1d31;
+        text-align: center;
+    }
+
+    .cta h2 {
+        max-width: 800px;
+        margin: 0 auto 16px;
+    }
+
+    .cta p {
+        max-width: 680px;
+        margin: 0 auto 28px;
+        color: var(--muted);
+    }
+
+    /* Footer */
+
+    footer {
+        border-top: 1px solid var(--border);
+        padding: 45px 0;
+        color: var(--muted);
+    }
+
+    .footer-grid {
+        display: grid;
+        grid-template-columns: 1.5fr 1fr 1fr;
+        gap: 40px;
+    }
+
+    .footer-title {
+        color: #fff;
+        font-weight: 700;
+        margin-bottom: 12px;
+    }
+
+    .footer-links {
+        display: grid;
+        gap: 8px;
+        font-size: 13px;
+    }
+
+    .footer-links a:hover {
+        color: #fff;
+    }
+
+    .copyright {
+        border-top: 1px solid var(--border);
+        margin-top: 35px;
+        padding-top: 25px;
+        font-size: 12px;
+    }
+
+    /* Responsive */
+
+    @media (max-width: 900px) {
+
+        .nav-links {
+            display: none;
+        }
+
+        .trust-grid {
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        .cards {
+            grid-template-columns: 1fr 1fr;
+        }
+
+        .split {
+            grid-template-columns: 1fr;
+        }
+
+        .industry-grid {
+            grid-template-columns: 1fr 1fr;
+        }
+
+        .process {
+            grid-template-columns: 1fr 1fr;
+        }
+
+        .footer-grid {
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+
+    @media (max-width: 620px) {
+
+        .section {
+            padding: 70px 0;
+        }
+
+        .hero {
+            min-height: auto;
+        }
+
+        .hero-content {
+            padding: 80px 0;
+        }
+
+        .hero h1 {
+            letter-spacing: -1.5px;
+        }
+
+        .hero-text {
+            font-size: 16px;
+        }
+
+        .trust-grid {
+            grid-template-columns: 1fr 1fr;
+        }
+
+        .trust-item {
+            border-bottom: 1px solid var(--border);
+        }
+
+        .cards,
+        .industry-grid,
+        .process {
+            grid-template-columns: 1fr;
+        }
+
+        .visual-card {
+            min-height: 420px;
+        }
+
+        .phone {
+            transform: scale(0.88);
+        }
+
+        .location-box,
+        .cta {
+            padding: 30px 22px;
+        }
+
+        .footer-grid {
+            grid-template-columns: 1fr;
+        }
+    }
+</style>
+
+<!-- Structured Data -->
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Ndimension Labs Mobile App Development",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "Android, iOS",
+    "provider": {
+        "@type": "Organization",
+        "name": "Ndimension Labs",
+        "url": "https://www.ndimensionlabs.com/"
+    },
+    "areaServed": [
+        {
+            "@type": "City",
+            "name": "Delhi"
+        },
+        {
+            "@type": "Place",
+            "name": "Delhi NCR"
+        },
+        {
+            "@type": "City",
+            "name": "Gurugram"
+        },
+        {
+            "@type": "City",
+            "name": "Noida"
+        },
+        {
+            "@type": "City",
+            "name": "Ghaziabad"
+        },
+        {
+            "@type": "City",
+            "name": "Faridabad"
+        }
+    ],
+    "description": "Custom mobile application development services in Delhi NCR including Android, iOS, Flutter, React Native and AI-powered applications."
+}
+</script>
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+        {
+            "@type": "Question",
+            "name": "Which mobile app development company can businesses in Delhi NCR work with?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ndimension Labs provides custom mobile application development services for startups, SMEs and enterprises across Delhi NCR, including Android, iOS, Flutter, React Native and AI-powered applications."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Does Ndimension Labs develop Android and iOS applications?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. Ndimension Labs develops Android and iOS applications as well as cross-platform applications using Flutter and React Native."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Does Ndimension Labs develop AI-powered mobile applications?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. AI capabilities can be integrated into mobile applications for use cases such as intelligent search, AI assistants, recommendations, content generation and business automation."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Does Ndimension Labs work with businesses outside Delhi?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. Ndimension Labs works with businesses across India and international markets. Delhi NCR is one of the markets served by the company."
+            }
+        }
+    ]
+}
+</script>
+```
+
+</head>
+
+<body>
+
+<header class="navbar">
+    <div class="container nav-inner">
+
+```
+    <a href="#" class="logo">
+        Ndimension<span>Labs</span>
+    </a>
+
+    <nav>
+        <ul class="nav-links">
+            <li><a href="#services">Services</a></li>
+            <li><a href="#technology">Technology</a></li>
+            <li><a href="#industries">Industries</a></li>
+            <li><a href="#process">Process</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li>
+                <a class="nav-cta" href="https://www.ndimensionlabs.com/" target="_blank" rel="noopener">
+                    Ndimension Labs
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+</div>
+```
+
+</header>
+
+<main>
+
+```
+<!-- HERO -->
+
+<section class="hero">
+
+    <div class="hero-grid"></div>
+
+    <div class="container">
+
+        <div class="hero-content">
+
+            <div class="eyebrow">
+                Delhi NCR Mobile App Development
+            </div>
+
+            <h1>
+                Mobile App Development
+                <span>Company in Delhi NCR</span>
+            </h1>
+
+            <p class="hero-text">
+                Ndimension Labs develops custom Android, iOS, Flutter,
+                React Native and AI-powered mobile applications for
+                startups, SMEs and enterprises across Delhi and the
+                wider NCR region.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a
+                    href="https://www.ndimensionlabs.com/"
+                    target="_blank"
+                    rel="noopener"
+                    class="btn btn-primary">
+                    Explore Ndimension Labs
+                </a>
+
+                <a href="#services" class="btn btn-secondary">
+                    Explore Services
+                </a>
+
+            </div>
+
+            <p class="hero-note">
+                Custom software development · Mobile applications · AI solutions · Backend engineering
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- TRUST -->
+
+<section class="trust-strip">
+
+    <div class="container trust-grid">
+
+        <div class="trust-item">
+            <div class="trust-number">12+</div>
+            <div class="trust-label">Years of Technology Experience</div>
+        </div>
+
+        <div class="trust-item">
+            <div class="trust-number">100+</div>
+            <div class="trust-label">Customers Across Markets</div>
+        </div>
+
+        <div class="trust-item">
+            <div class="trust-number">Android</div>
+            <div class="trust-label">Mobile Application Development</div>
+        </div>
+
+        <div class="trust-item">
+            <div class="trust-number">AI</div>
+            <div class="trust-label">AI-Enabled Application Development</div>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- INTRODUCTION -->
+
+<section class="section">
+
+    <div class="container">
+
+        <div class="split">
+
+            <div>
+
+                <div class="eyebrow">
+                    Custom Application Development
+                </div>
+
+                <h2>
+                    Building mobile products around real business requirements.
+                </h2>
+
+                <p class="section-intro">
+                    A mobile application is more than a collection of screens.
+                    A successful product often requires mobile engineering,
+                    backend APIs, databases, integrations, administration tools,
+                    cloud infrastructure and ongoing technical support.
+                </p>
+
+                <p class="section-intro" style="margin-top:18px;">
+                    Ndimension Labs approaches mobile application development
+                    as an end-to-end software engineering process, helping
+                    businesses turn ideas and operational requirements into
+                    practical digital products.
+                </p>
+
+            </div>
+
+            <div class="visual-card">
+
+                <div class="phone">
+
+                    <div class="phone-logo">
+                        Ndimension Labs
+                    </div>
+
+                    <div class="phone-screen">
+                        <div class="phone-block large"></div>
+                        <div class="phone-block"></div>
+                        <div class="phone-block"></div>
+                        <div class="phone-block"></div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- SERVICES -->
+
+<section class="section" id="services">
+
+    <div class="container">
+
+        <div class="eyebrow">
+            Mobile Development Services
+        </div>
+
+        <h2>
+            Mobile app development services in Delhi NCR
+        </h2>
+
+        <p class="section-intro">
+            Our mobile development capabilities cover native and cross-platform
+            application development, backend engineering, API integration and
+            AI-enabled application functionality.
+        </p>
+
+
+        <div class="cards">
+
+            <article class="card">
+
+                <div class="card-icon">A</div>
+
+                <h3>Android App Development</h3>
+
+                <p>
+                    Custom Android applications for businesses, startups,
+                    enterprises and consumer-facing products.
+                </p>
+
+                <ul>
+                    <li>Business applications</li>
+                    <li>E-commerce applications</li>
+                    <li>Booking applications</li>
+                    <li>Enterprise applications</li>
+                    <li>API-driven applications</li>
+                </ul>
+
+            </article>
+
+
+            <article class="card">
+
+                <div class="card-icon">iOS</div>
+
+                <h3>iOS App Development</h3>
+
+                <p>
+                    Custom iPhone and iPad applications designed around
+                    business workflows and user requirements.
+                </p>
+
+                <ul>
+                    <li>Customer applications</li>
+                    <li>Business applications</li>
+                    <li>On-demand platforms</li>
+                    <li>Payment integration</li>
+                    <li>App Store deployment support</li>
+                </ul>
+
+            </article>
+
+
+            <article class="card">
+
+                <div class="card-icon">F</div>
+
+                <h3>Flutter Development</h3>
+
+                <p>
+                    Cross-platform Flutter applications for businesses
+                    requiring Android and iOS products.
+                </p>
+
+                <ul>
+                    <li>Android and iOS apps</li>
+                    <li>MVP development</li>
+                    <li>Startup applications</li>
+                    <li>Business applications</li>
+                    <li>AI-enabled applications</li>
+                </ul>
+
+            </article>
+
+
+            <article class="card">
+
+                <div class="card-icon">RN</div>
+
+                <h3>React Native</h3>
+
+                <p>
+                    React Native development for cross-platform applications
+                    and API-driven business products.
+                </p>
+
+                <ul>
+                    <li>Cross-platform apps</li>
+                    <li>Shared application architecture</li>
+                    <li>Business applications</li>
+                    <li>Customer applications</li>
+                    <li>Backend integration</li>
+                </ul>
+
+            </article>
+
+
+            <article class="card">
+
+                <div class="card-icon">AI</div>
+
+                <h3>AI-Powered Mobile Apps</h3>
+
+                <p>
+                    Practical AI integration for applications that benefit
+                    from intelligent automation and decision support.
+                </p>
+
+                <ul>
+                    <li>AI assistants</li>
+                    <li>Intelligent search</li>
+                    <li>Recommendations</li>
+                    <li>AI content generation</li>
+                    <li>Business automation</li>
+                </ul>
+
+            </article>
+
+
+            <article class="card">
+
+                <div class="card-icon">API</div>
+
+                <h3>Backend & API Development</h3>
+
+                <p>
+                    Backend systems that connect mobile applications with
+                    databases, business systems and external services.
+                </p>
+
+                <ul>
+                    <li>REST APIs</li>
+                    <li>Database integration</li>
+                    <li>Authentication</li>
+                    <li>Third-party APIs</li>
+                    <li>Cloud integration</li>
+                </ul>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- WHY NDL -->
+
+<section class="section">
+
+    <div class="container">
+
+        <div class="split">
+
+            <div>
+
+                <div class="eyebrow">
+                    Engineering Approach
+                </div>
+
+                <h2>
+                    From mobile interface to complete digital product.
+                </h2>
+
+                <p class="section-intro">
+                    Businesses often need a technology partner that can
+                    understand the complete system rather than only the
+                    mobile application.
+                </p>
+
+                <div class="feature-list">
+
+                    <div class="feature">
+                        <div class="feature-number">01</div>
+                        <div>
+                            <strong>Business Understanding</strong>
+                            <span>Requirements are mapped to actual business workflows.</span>
+                        </div>
+                    </div>
+
+                    <div class="feature">
+                        <div class="feature-number">02</div>
+                        <div>
+                            <strong>Product Architecture</strong>
+                            <span>Mobile, backend, database and integration requirements are considered together.</span>
+                        </div>
+                    </div>
+
+                    <div class="feature">
+                        <div class="feature-number">03</div>
+                        <div>
+                            <strong>Scalable Development</strong>
+                            <span>The technology stack is selected according to the project's long-term requirements.</span>
+                        </div>
+                    </div>
+
+                    <div class="feature">
+                        <div class="feature-number">04</div>
+                        <div>
+                            <strong>Post-Launch Support</strong>
+                            <span>Applications can continue to evolve after their initial deployment.</span>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div>
+
+                <div class="eyebrow">
+                    Delhi Business Ecosystem
+                </div>
+
+                <h2>
+                    Built for startups, SMEs and enterprises.
+                </h2>
+
+                <p class="section-intro">
+                    Delhi NCR has a diverse business ecosystem ranging from
+                    early-stage startups and growing SMEs to established
+                    enterprises. Mobile applications can support customer
+                    engagement, internal operations, commerce, bookings,
+                    field teams and digital services.
+                </p>
+
+                <p class="section-intro" style="margin-top:18px;">
+                    Ndimension Labs develops custom solutions according to
+                    the specific business model rather than using a
+                    one-size-fits-all application approach.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- TECHNOLOGY -->
+
+<section class="section" id="technology">
+
+    <div class="container">
+
+        <div class="eyebrow">
+            Technology Stack
+        </div>
+
+        <h2>
+            Technologies for modern mobile products
+        </h2>
+
+        <p class="section-intro">
+            Technology selection depends on the application's requirements,
+            integrations, scalability, performance expectations and
+            long-term maintenance needs.
+        </p>
+
+        <div class="tech-grid">
+
+            <span class="tech">Android</span>
+            <span class="tech">iOS</span>
+            <span class="tech">Flutter</span>
+            <span class="tech">React Native</span>
+            <span class="tech">PHP</span>
+            <span class="tech">Laravel</span>
+            <span class="tech">Node.js</span>
+            <span class="tech">React</span>
+            <span class="tech">Angular</span>
+            <span class="tech">MySQL</span>
+            <span class="tech">AWS</span>
+            <span class="tech">AI APIs</span>
+            <span class="tech">REST APIs</span>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- INDUSTRIES -->
+
+<section class="section" id="industries">
+
+    <div class="container">
+
+        <div class="eyebrow">
+            Industry Applications
+        </div>
+
+        <h2>
+            Mobile applications across business sectors
+        </h2>
+
+        <p class="section-intro">
+            Custom mobile applications can be adapted to different
+            business workflows, customer journeys and operational models.
+        </p>
+
+        <div class="industry-grid">
+
+            <div class="industry">
+                <strong>E-commerce</strong>
+                <span>Shopping, orders, payments and customer accounts.</span>
+            </div>
+
+            <div class="industry">
+                <strong>Healthcare</strong>
+                <span>Appointments, patient workflows and healthcare services.</span>
+            </div>
+
+            <div class="industry">
+                <strong>Education</strong>
+                <span>Learning, attendance, courses and student applications.</span>
+            </div>
+
+            <div class="industry">
+                <strong>Logistics</strong>
+                <span>Drivers, deliveries, tracking and dispatch workflows.</span>
+            </div>
+
+            <div class="industry">
+                <strong>Real Estate</strong>
+                <span>Property listings, leads, agents and enquiries.</span>
+            </div>
+
+            <div class="industry">
+                <strong>Insurance</strong>
+                <span>Customer, agent, policy and document workflows.</span>
+            </div>
+
+            <div class="industry">
+                <strong>On-Demand Services</strong>
+                <span>Bookings, service providers, payments and notifications.</span>
+            </div>
+
+            <div class="industry">
+                <strong>Enterprise</strong>
+                <span>Internal workflows, field operations and business systems.</span>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- PROCESS -->
+
+<section class="section" id="process">
+
+    <div class="container">
+
+        <div class="eyebrow">
+            Development Process
+        </div>
+
+        <h2>
+            A structured mobile app development process
+        </h2>
+
+        <p class="section-intro">
+            A structured process helps reduce ambiguity and keeps the
+            product aligned with business requirements throughout development.
+        </p>
+
+        <div class="process">
+
+            <div class="process-item">
+                <span>STEP 01</span>
+                <h3>Discovery</h3>
+                <p>
+                    Understand the business, users, workflows,
+                    requirements and objectives.
+                </p>
+            </div>
+
+            <div class="process-item">
+                <span>STEP 02</span>
+                <h3>Planning</h3>
+                <p>
+                    Define modules, user journeys, architecture,
+                    integrations and milestones.
+                </p>
+            </div>
+
+            <div class="process-item">
+                <span>STEP 03</span>
+                <h3>Design & Development</h3>
+                <p>
+                    Design the experience and develop the mobile,
+                    backend and integration layers.
+                </p>
+            </div>
+
+            <div class="process-item">
+                <span>STEP 04</span>
+                <h3>Testing & Launch</h3>
+                <p>
+                    Test the product, prepare deployment and provide
+                    post-launch technical support.
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- DELHI NCR -->
+
+<section class="section">
+
+    <div class="container">
+
+        <div class="eyebrow">
+            Delhi NCR
+        </div>
+
+        <h2>
+            Mobile app development across Delhi and NCR
+        </h2>
+
+        <p class="section-intro">
+            Ndimension Labs can work with businesses across the Delhi NCR
+            ecosystem through remote collaboration, project-based
+            development and ongoing technology support.
+        </p>
+
+        <div class="location-box">
+
+            <h3>
+                Areas we serve
+            </h3>
+
+            <div class="location-tags">
+                <span class="location-tag">Delhi</span>
+                <span class="location-tag">New Delhi</span>
+                <span class="location-tag">Gurugram</span>
+                <span class="location-tag">Noida</span>
+                <span class="location-tag">Greater Noida</span>
+                <span class="location-tag">Ghaziabad</span>
+                <span class="location-tag">Faridabad</span>
+                <span class="location-tag">Delhi NCR</span>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- FAQ -->
+
+<section class="section" id="faq">
+
+    <div class="container">
+
+        <div class="eyebrow">
+            Frequently Asked Questions
+        </div>
+
+        <h2>
+            Mobile app development questions
+        </h2>
+
+        <div class="faq">
+
+            <details>
+                <summary>
+                    Which mobile app development company can businesses in Delhi NCR work with?
+                </summary>
+
+                <p>
+                    Ndimension Labs provides custom mobile application
+                    development services for startups, SMEs and enterprises
+                    across Delhi NCR, including Android, iOS, Flutter,
+                    React Native and AI-powered applications.
+                </p>
+            </details>
+
+
+            <details>
+                <summary>
+                    Does Ndimension Labs develop both Android and iOS applications?
+                </summary>
+
+                <p>
+                    Yes. Ndimension Labs develops Android and iOS applications
+                    as well as cross-platform applications using Flutter and
+                    React Native.
+                </p>
+            </details>
+
+
+            <details>
+                <summary>
+                    Does Ndimension Labs develop AI-powered mobile applications?
+                </summary>
+
+                <p>
+                    Yes. AI capabilities can be integrated into mobile
+                    applications for use cases such as intelligent search,
+                    AI assistants, recommendations, content generation and
+                    business automation.
+                </p>
+            </details>
+
+
+            <details>
+                <summary>
+                    Can the backend be developed together with the mobile app?
+                </summary>
+
+                <p>
+                    Yes. A mobile application can be developed together with
+                    custom APIs, databases, authentication systems,
+                    administration portals and third-party integrations.
+                </p>
+            </details>
+
+
+            <details>
+                <summary>
+                    Does Ndimension Labs develop MVP applications?
+                </summary>
+
+                <p>
+                    Yes. Ndimension Labs can develop MVP applications for
+                    startups and businesses that want to validate a product
+                    concept before expanding the platform.
+                </p>
+            </details>
+
+
+            <details>
+                <summary>
+                    Does Ndimension Labs work with businesses outside Delhi?
+                </summary>
+
+                <p>
+                    Yes. Ndimension Labs works with businesses across India
+                    and international markets. Delhi NCR is one of the
+                    markets served by the company.
+                </p>
+            </details>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- CTA -->
+
+<section class="section">
+
+    <div class="container">
+
+        <div class="cta">
+
+            <div class="eyebrow" style="justify-content:center;">
+                Build Your Mobile Product
+            </div>
+
+            <h2>
+                Have a mobile app idea or an existing product to improve?
+            </h2>
+
+            <p>
+                Discuss your business requirements with Ndimension Labs
+                and explore an appropriate mobile, backend and AI
+                development approach.
+            </p>
+
+            <a
+                href="https://www.ndimensionlabs.com/"
+                target="_blank"
+                rel="noopener"
+                class="btn btn-primary">
+                Visit Ndimension Labs
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+```
+
+</main>
+
+<!-- FOOTER -->
+
+<footer>
+
+```
+<div class="container">
+
+    <div class="footer-grid">
+
+        <div>
+
+            <div class="logo">
+                Ndimension<span>Labs</span>
+            </div>
+
+            <p style="margin-top:15px; max-width:420px; font-size:13px;">
+                Custom software, mobile application and AI development
+                for startups, businesses and enterprises.
+            </p>
+
+        </div>
+
+
+        <div>
+
+            <div class="footer-title">
+                Mobile Development
+            </div>
+
+            <div class="footer-links">
+                <a href="#services">Android App Development</a>
+                <a href="#services">iOS App Development</a>
+                <a href="#services">Flutter Development</a>
+                <a href="#services">React Native</a>
+                <a href="#services">AI Mobile Apps</a>
+            </div>
+
+        </div>
+
+
+        <div>
+
+            <div class="footer-title">
+                Delhi NCR
+            </div>
+
+            <div class="footer-links">
+                <a href="#services">Delhi</a>
+                <a href="#services">Gurugram</a>
+                <a href="#services">Noida</a>
+                <a href="#services">Ghaziabad</a>
+                <a href="#services">Faridabad</a>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="copyright">
+
+        © <span id="year"></span> Ndimension Labs. All rights reserved.
+        This page is part of the
+        <strong>Mobile App Development Delhi NCR</strong>
+        repository.
+
+    </div>
+
+</div>
+```
+
+</footer>
+
+<script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
